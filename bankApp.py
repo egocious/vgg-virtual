@@ -1,8 +1,8 @@
-bankData = {"username5": {"email": 'toke.makinwa@yahoo.com',"current_bal": 102000 },
-"username1": { "email": 'sandra.orji@yahoo.com', "current_bal": 12000 },    
-"username2": { "email": 'mohammed.buhari@yahoo.com', "current_bal": 44000 },
-"username3": { "email": 'shola.badmus@yahoo.com', "current_bal": 49000 },   
-"username4": { "email": 'pius.sydney@yahoo.com', "current_bal": 72000 } }
+bankData = {"username": {"email": 'toke.makinwa@yahoo.com',"current_bal": 102000 },
+"username": { "email": 'sandra.orji@yahoo.com', "current_bal": 12000 },    
+"username": { "email": 'mohammed.buhari@yahoo.com', "current_bal": 44000 },
+"username": { "email": 'shola.badmus@yahoo.com', "current_bal": 49000 },   
+"username": { "email": 'pius.sydney@yahoo.com', "current_bal": 72000 } }
 
 option = raw_input("Press 1 To create an account \nPress 2 for transactions: ")
 
@@ -14,6 +14,10 @@ if option == "1":
         print name + ", Invalid input! Email already in use" 
     else:
         print name + ", Your account has been created"
+        print "Press 1 to check your balance"
+        print "Press 2 to deposit"
+        print "Press 3 to withdraw"
+        print "Press 4 to transfer"
 
 elif option == "2":
     name = raw_input("Enter your name: ")

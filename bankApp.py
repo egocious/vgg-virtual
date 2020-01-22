@@ -76,6 +76,8 @@ elif options == "4":
             print "Your transaction was succesfull and your account balance is NGN " + str(new_balance)
         else:
             print "Unable to complete tranfer"
+else:
+        print "Invalid option choice. Please choose between options 1-4"
 
         
 
